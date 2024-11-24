@@ -26,6 +26,22 @@ body {
     align-items: center;
 }
 
+.content_1 {
+    background-color: aqua;
+    display: flex;
+}
+
+.image_placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
