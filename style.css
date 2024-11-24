@@ -49,6 +49,7 @@ body {
 }
 
 .left h1 {
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -72,10 +73,19 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
+
+a {
+    font-size: 18px;
+}
+
 
 h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-size: 30px;
 }
