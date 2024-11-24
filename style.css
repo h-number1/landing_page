@@ -1,4 +1,12 @@
 body {
     height: 100vh;
     background-color: beige;
+    box-sizing: border-box;
 }
+
+.site_wrap {
+    max-width: 90%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
