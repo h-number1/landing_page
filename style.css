@@ -10,3 +10,7 @@ body {
     margin: 0 auto;
 }
 
+.section_1, .section_2, .section_3, .section_4, .footer {
+    padding: 0px 150px 0px 150px;
+}
+
