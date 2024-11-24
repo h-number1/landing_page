@@ -72,8 +72,8 @@ button {
     background-color: red;
 }
 
-.section_2 {
-    background-color: aliceblue;
+.content_2 {
+    display: flex;
 }
 
 ul {
