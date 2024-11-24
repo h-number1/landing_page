@@ -12,5 +12,11 @@ body {
 
 .section_1, .section_2, .section_3, .section_4, .footer {
     padding: 0px 150px 0px 150px;
+    display: flex;
 }
+
+.section_1 {
+    flex-direction: column;
+}
+
 
