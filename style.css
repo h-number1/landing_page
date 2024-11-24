@@ -73,7 +73,27 @@ button {
 }
 
 .content_2 {
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_2_content {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.styled_box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
 }
 
 ul {
