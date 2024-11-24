@@ -21,7 +21,10 @@ body {
 .section_1 {
     background-color: aliceblue;
     flex-direction: column;
-    
+}
+
+.section_2, .section_3, .section_4 {
+    background-color: aliceblue;
 }
 
 .header {
@@ -55,6 +58,7 @@ body {
 
 .left p {
     max-width: 400px;
+    font-size: 18px;
 }
 
 button {
@@ -66,6 +70,10 @@ button {
     width: 600px;
     height: 250px;
     background-color: red;
+}
+
+.section_2 {
+    background-color: aliceblue;
 }
 
 ul {
