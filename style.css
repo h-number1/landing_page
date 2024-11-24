@@ -31,15 +31,20 @@ body {
     display: flex;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
+
 .image_placeholder {
     width: 400px;
     height: 200px;
     background-color: red;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
 }
 
 ul {
