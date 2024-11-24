@@ -35,15 +35,25 @@ body {
 
 .content_1 {
     background-color: aqua;
-    display: flex;
+    margin-bottom: 80px;
     padding: 10px;
-    gap: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left {
+    height: 250px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.left h1 {
+    font-weight: 800;
+}
+
+.left p {
+    max-width: 400px;
 }
 
 button {
@@ -52,8 +62,8 @@ button {
 }
 
 .image_placeholder {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     background-color: red;
 }
 
