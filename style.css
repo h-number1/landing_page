@@ -16,7 +16,9 @@ body {
 }
 
 .section_1 {
+    background-color: aliceblue;
     flex-direction: column;
+    
 }
 
 .header {
@@ -24,16 +26,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    margin-bottom: 80px;
 }
 
 .content_1 {
     background-color: aqua;
     display: flex;
+    padding: 10px;
+    gap: 400px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 button {
