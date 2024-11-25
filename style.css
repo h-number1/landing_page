@@ -123,6 +123,17 @@ button {
     margin-bottom: 80px;
 }
 
+.content_3 p {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.content_3 h3 {
+    text-align: end;
+}
+
 .content_4 {
     margin-bottom: 80px;
 }
