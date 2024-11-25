@@ -84,16 +84,23 @@ button {
     background-color: red;
 }
 
+.section 2{
+
+}
+
 .content_2 {
     margin-bottom: 80px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    flex: auto;
     gap: 20px;
 }
 
 .section_2_content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .boxes {
@@ -101,6 +108,10 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.boxes p {
+    max-width: 200px;
 }
 
 .styled_box {
