@@ -36,6 +36,18 @@ body {
     margin-bottom: 80px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 18px;
+}
+
 .content_1 {
     background-color: aqua;
     margin-bottom: 80px;
@@ -95,19 +107,6 @@ button {
     height: 200px;
     background-color: yellow;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-a {
-    font-size: 18px;
-}
-
 
 h1, h2, h3, h4, p {
     margin: 0;
