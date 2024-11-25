@@ -54,6 +54,7 @@ a {
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    flex: auto;
 }
 
 .left {
@@ -84,11 +85,8 @@ button {
     background-color: red;
 }
 
-.section 2{
-
-}
-
 .content_2 {
+    background-color: aqua;
     margin-bottom: 80px;
     text-align: center;
     display: flex;
@@ -101,6 +99,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .boxes {
