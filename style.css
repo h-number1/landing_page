@@ -141,6 +141,15 @@ img {
 
 .content_4 {
     margin-bottom: 80px;
+    display: flex;
+    flex: auto;
+}
+
+.styled_box_2 {
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    flex: auto;
 }
 
 
